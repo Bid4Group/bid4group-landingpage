@@ -1,5 +1,14 @@
 # Bid4Group - Landing Page
 
+
+## Screenshots
+
+[screen1]: https://github.com/Bid4Group/bid4group-landingpage/tree/master/img/readme/1.png "Screenshot 1"
+[screen2]: https://github.com/Bid4Group/bid4group-landingpage/tree/master/img/readme/2.png "Screenshot 2"
+[screen3]: https://github.com/Bid4Group/bid4group-landingpage/tree/master/img/readme/3.png "Screenshot 3"
+[screen4]: https://github.com/Bid4Group/bid4group-landingpage/tree/master/img/readme/4.png "Screenshot 4"
+
+
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
