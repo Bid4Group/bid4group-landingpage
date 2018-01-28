@@ -6,9 +6,12 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+h3 {
+  font-weight: 100;
+}
+
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -17,12 +20,11 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #f8f9fa !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
+  padding-top: 4.5rem;
   padding-bottom: 8rem; }
   header.masthead .overlay {
     position: absolute;
@@ -35,7 +37,7 @@ header.masthead {
     font-size: 2rem; }
   @media (min-width: 768px) {
     header.masthead {
-      padding-top: 12rem;
+      padding-top: 4.5rem;
       padding-bottom: 12rem; }
       header.masthead h1 {
         font-size: 3rem; } }
@@ -97,12 +99,14 @@ footer.footer {
 
 /* own styles */
 .navbar-links {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
 }
 
 .navbar-logo {
-  width: 100px;
-  height: 60px;
+  width: 100%;
+  height: 40%;
+  max-height: 125px;
 }
 
 .masthead-content {
@@ -110,5 +114,11 @@ footer.footer {
 }
 
 header.masthead h1 {
-  font-size: 500%;
+  font-size: 300%;
+  margin-bottom: 20px;
+}
+
+.client-logo {
+  width: 50%;
+  height: 50%;
 }
