@@ -26,7 +26,7 @@
     <nav class="navbar navbar-light static-top">
       <div class="container">
         <div class="col-md-12">
-          <a class="navbar-brand" href="#"><img src="./img/bid4group_logo.png" class="navbar-logo"></a>
+          <a class="navbar-brand" href="#"><img src="./img/logos/bid4g_logo.jpg" class="navbar-logo"></a>
         </div>
         <div class="col-md-12 navbar-links">
           <a class="navbar-brand" href="#">What we do</a>
@@ -44,7 +44,7 @@
       <div class="container masthead-content">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1>We make corporate services happen at the tip of your fingers</h1>
+            <h1 style="color: black;">We make corporate services happen at the tip of your fingers</h1>
             <h3>We are a digital enterprise based in Singapore with a mission to shed light
               as well as transparency on the opaque market of corporate services. We
               empower companies with unprecedented access to suitable vendors and
@@ -117,24 +117,24 @@
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img src="./img/logos/tableau_logo.png" class="client-logo">
+              <img src="./img/logos/tableau_logo.png" class="img-thumbnail client-logo">
             </div>
             <div class="col-lg-4">
-              <img src="./img/logos/randstad_logo.png" class="client-logo">
+              <img src="./img/logos/randstad_logo.png" class="img-thumbnail client-logo">
             </div>
             <div class="col-lg-4">
-              <img src="./img/logos/basf_logo.svg">
+              <img src="./img/logos/basf_logo.svg" style="width: 50%;">
             </div>
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img src="./img/logos/ubisoft_logo.png" class="client-logo">
+              <img src="./img/logos/ubisoft_logo.png" class="img-thumbnail client-logo" style="width: 50%;">
             </div>
             <div class="col-lg-4">
-              <img src="./img/logos/four-seasons_logo.png" class="client-logo">
+              <img src="./img/logos/four-seasons_logo.png" class="img-thumbnail client-logo" style="width: 50%;">
             </div>
             <div class="col-lg-4">
-              <img src="./img/logos/nanyang-technological-university_logo.png" class="client-logo">
+              <img src="./img/logos/nanyang-technological-university_logo.png" class="img-thumbnail client-logo">
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@
     <footer class="footer bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <div class="col-lg-12 h-100 text-center justify-content my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
                 <a href="#">About</a>
@@ -193,7 +193,7 @@
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">
-              &copy; 2018 bid4group - All rights reserved<br><br>
+              <div id="footer-copyright">&copy; 2018 bid4group - All rights reserved</div><br><br>
               Singapore • Kuala Lumpur • Hong Kong • Sydney • Melbourne • London • New York • Chicago • Washington, DC • Toronto • Paris • Berlin • Shanghai • Amsterdam • Dubai • San Francisco • Vancouver<br><br>
               Bid4group is a boutique service and selective network for top corporate services across North America, Europe
               and APAC. We connect companies with a selection of the best suited local providers. Through our online
@@ -203,6 +203,7 @@
               service and much more.
             </p>
           </div>
+          <!--
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
               <li class="list-inline-item mr-3">
@@ -222,6 +223,7 @@
               </li>
             </ul>
           </div>
+        -->
         </div>
       </div>
     </footer>
@@ -229,7 +231,12 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script type="text/javascript">
+      $().ready(function() {
+        var currentYear = new Date().getFullYear();
+        $('#footer-copyright')[0].innerHTML = "&copy; " + currentYear + " bid4group - All rights reserved";
+      });
+    </script>
   </body>
 
 </html>
