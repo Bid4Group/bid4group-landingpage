@@ -15,7 +15,8 @@ header.masthead {
     opacity: 0.3;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 300%;
+    margin-bottom: 20px;
   }
   @media (min-width: 768px) {
     padding-top: 5rem;
@@ -24,4 +25,13 @@ header.masthead {
       font-size: 3rem;
     }
   }
+}
+
+.masthead-content {
+  color: black;
+}
+
+.client-logo {
+  width: 50%;
+  height: 50%;
 }

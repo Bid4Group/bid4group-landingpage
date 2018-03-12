@@ -33,13 +33,21 @@ header.masthead {
     left: 0;
     opacity: 0.3; }
   header.masthead h1 {
-    font-size: 2rem; }
+    font-size: 300%;
+    margin-bottom: 20px; }
   @media (min-width: 768px) {
     header.masthead {
       padding-top: 5rem;
       padding-bottom: 5rem; }
       header.masthead h1 {
         font-size: 3rem; } }
+
+.masthead-content {
+  color: black; }
+
+.client-logo {
+  width: 50%;
+  height: 50%; }
 
 .showcase .showcase-text {
   padding: 3rem; }
